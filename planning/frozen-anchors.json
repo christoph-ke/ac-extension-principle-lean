@@ -1,0 +1,2285 @@
+{
+  "schema_version": 1,
+  "manifest_state": "AUTHOR_APPROVED",
+  "seal_limits": {
+    "max_body_lines": 3,
+    "max_body_bytes": 240
+  },
+  "anchors": [
+    {
+      "id": "massRatio_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:50-60"
+      },
+      "contract": {
+        "id": "paper.eq:scalar-and-mass-ratio",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+      "export": "AcExtensionPrinciple.massRatio",
+      "split_policy": {
+        "source_group": "acep.massRatio",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "9fb16185edf0b42c0dd576743ef0c0c0d407f275e4800c9c1029a1a9015ff599",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+    },
+    {
+      "id": "gammaOf_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:50-60"
+      },
+      "contract": {
+        "id": "paper.eq:normalized-expansions",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/GammaOf.lean",
+      "export": "AcExtensionPrinciple.gammaOf",
+      "split_policy": {
+        "source_group": "acep.gammaOf",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "7c4f6bdc83b4f668dec3fdf63691c359b7360d096971765847e52b34e39dbb1a",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "2edc4a1cde6cb3b923a2cefbd22f3919f314f8e090fbafe461bc642084796542"
+    },
+    {
+      "id": "varkappaOf_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:62-65"
+      },
+      "contract": {
+        "id": "paper.eq:varkappa",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/VarkappaOf.lean",
+      "export": "AcExtensionPrinciple.varkappaOf",
+      "split_policy": {
+        "source_group": "acep.varkappaOf",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "2b6526077245e45d2a836849dae8065f3402dd0fd13e77a9e0368552d34172a6",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "a40fa06801a2f0202f2aae4a97276914912db9fceb66129cf069a2f2bcd334f4"
+    },
+    {
+      "id": "SSFields_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:49-106"
+      },
+      "contract": {
+        "id": "paper.fields-49-106",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+      "export": "AcExtensionPrinciple.SSFields",
+      "split_policy": {
+        "source_group": "acep.SSFields",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "96d809207b57af54c3501c5c83552e6a5c3167898fb36c10f9f0cd2dca782c61",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+    },
+    {
+      "id": "SSFields_mu_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:50-60,269"
+      },
+      "contract": {
+        "id": "paper.eq:scalar-and-mass-ratio.field",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+      "export": "AcExtensionPrinciple.SSFields.mu",
+      "split_policy": {
+        "source_group": "acep.SSFields.mu",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "050c4146c9793bb150031b49c26ebd71176da6cca1e5f29c7495eb9c73d1c042",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+    },
+    {
+      "id": "SSFields_gamma_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:50-60"
+      },
+      "contract": {
+        "id": "paper.eq:normalized-expansions.field",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SSFieldsGamma.lean",
+      "export": "AcExtensionPrinciple.SSFields.gamma",
+      "split_policy": {
+        "source_group": "acep.SSFields.gamma",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "9d9dfaff3bb76918e55cdda56b9fb3267133e4830770b669e18d53b815934d4b",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/GammaOf.lean",
+          "sha256": "2edc4a1cde6cb3b923a2cefbd22f3919f314f8e090fbafe461bc642084796542"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "fc1064a9512c2522690d0cdfce132eba301456e01cebb23ea90650046795cdd1"
+    },
+    {
+      "id": "SSFields_varkappa_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:62-65"
+      },
+      "contract": {
+        "id": "paper.eq:varkappa.field",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SSFieldsVarkappa.lean",
+      "export": "AcExtensionPrinciple.SSFields.varkappa",
+      "split_policy": {
+        "source_group": "acep.SSFields.varkappa",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "30c2f8be2c89a2f73be8947cb64470835f581903b4e4d111efa4043736c8cc65",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/VarkappaOf.lean",
+          "sha256": "a40fa06801a2f0202f2aae4a97276914912db9fceb66129cf069a2f2bcd334f4"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "cc06789b722aa693433f993494e0adf8dd00482611a6e4702950167f5b21f1e2"
+    },
+    {
+      "id": "SSFields_theta_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:95-106"
+      },
+      "contract": {
+        "id": "paper.eq:normalized-scalar-derivatives.theta",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SSFieldsTheta.lean",
+      "export": "AcExtensionPrinciple.SSFields.theta",
+      "split_policy": {
+        "source_group": "acep.SSFields.theta",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "8edf7141de6241a1bea97d5736f3872cb02a88998a20aaf8a0d99f8ea919ac2e",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "68e3819ef05a9097bdacc20b6d96b8897cda58c02960f71c2a969edde0de16a8"
+    },
+    {
+      "id": "SSFields_zeta_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:95-106"
+      },
+      "contract": {
+        "id": "paper.eq:normalized-scalar-derivatives.zeta",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SSFieldsZeta.lean",
+      "export": "AcExtensionPrinciple.SSFields.zeta",
+      "split_policy": {
+        "source_group": "acep.SSFields.zeta",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "635da17bcaf5d9f86c445fbbacac7cf6a1baeea38e80c54d152a21d1c15a5cc7",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "d7567562b3dbc2a44b7aed16d9697dfaa0e85cd556f7c93c5fd3982258d54554"
+    },
+    {
+      "id": "SSFields_radiusCoeff_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:69-84"
+      },
+      "contract": {
+        "id": "paper.eq:radius",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SSFieldsRadiusCoeff.lean",
+      "export": "AcExtensionPrinciple.SSFields.radiusCoeff",
+      "split_policy": {
+        "source_group": "acep.SSFields.radiusCoeff",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "6346179b9459ddfdda67d8ca52e940e4d3bc34efd8d667da7ed8b89befbcf698",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "b88fa3e1730916303d47304b5d65e7617ac716a691ff65710396308929b45a28"
+    },
+    {
+      "id": "SSFields_massV_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:69-84"
+      },
+      "contract": {
+        "id": "paper.eq:mass.v",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SSFieldsMassV.lean",
+      "export": "AcExtensionPrinciple.SSFields.massV",
+      "split_policy": {
+        "source_group": "acep.SSFields.massV",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "f26b728ff718b3218c71122c08c97f2cfea780ac7fcc13e072c0c420a4fcd187",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsTheta.lean",
+          "sha256": "68e3819ef05a9097bdacc20b6d96b8897cda58c02960f71c2a969edde0de16a8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "6b46ae6f5d721a944485dcc2ac74f7cece2f9722a9537e513ed9e161a1e14698"
+    },
+    {
+      "id": "SSFields_massU_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:69-84"
+      },
+      "contract": {
+        "id": "paper.eq:mass.u",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SSFieldsMassU.lean",
+      "export": "AcExtensionPrinciple.SSFields.massU",
+      "split_policy": {
+        "source_group": "acep.SSFields.massU",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "0d93de9346a169063943b4211907480ec2f3395d83d201d601418414a3df2e1b",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsZeta.lean",
+          "sha256": "d7567562b3dbc2a44b7aed16d9697dfaa0e85cd556f7c93c5fd3982258d54554"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "e46e62225addc5355b5a3818fb84bda4c760fc692d274e7855863ab5e8b4c044"
+    },
+    {
+      "id": "pastTriangle_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:115-119"
+      },
+      "contract": {
+        "id": "paper.eq:past-triangle",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/PastTriangle.lean",
+      "export": "AcExtensionPrinciple.pastTriangle",
+      "split_policy": {
+        "source_group": "acep.pastTriangle",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "2800eb03f3aec903e51661b8062ffb404820ad10e6695fd900a6c10878890e06",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "dfef32bf687d0cb9a9bc7b1d2f7aa16fa7d4da31b695cd357800c1da71538269"
+    },
+    {
+      "id": "axis_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:115-119"
+      },
+      "contract": {
+        "id": "paper.eq:past-triangle.axis",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/Axis.lean",
+      "export": "AcExtensionPrinciple.axis",
+      "split_policy": {
+        "source_group": "acep.axis",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "5197a572d92ccb289879a1c3ff5f8f80518570d075520e19914df433abd55772",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "c844d9db21c248a214b3a48474a65a5cf6e2b9127e3fb5459c476415dd0aabb1"
+    },
+    {
+      "id": "outSeg_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:214-269"
+      },
+      "contract": {
+        "id": "paper.class.outgoing-segment",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/OutSeg.lean",
+      "export": "AcExtensionPrinciple.outSeg",
+      "split_policy": {
+        "source_group": "acep.outSeg",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "af676226336932c34e0099ffe5ed67408c084b5edbccf7a4bc69a0058c60f7e5",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "15c5f85b530d674e75b086d93f2cf2c16e0aa6d53e9ef299295d7780138e674b"
+    },
+    {
+      "id": "inSeg_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:214-269"
+      },
+      "contract": {
+        "id": "paper.class.incoming-segment",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/InSeg.lean",
+      "export": "AcExtensionPrinciple.inSeg",
+      "split_policy": {
+        "source_group": "acep.inSeg",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "bdbbc1661a769c105ee933ef3de665d28c29b1e1d29a350d4e1931ccaccf7fb9",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "eb70c1253cfa6970dc486832a0a7c96a15daadba46e727f7aa51c8022956c4ff"
+    },
+    {
+      "id": "offAxis_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:66,115-119"
+      },
+      "contract": {
+        "id": "paper.class.off-axis",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/OffAxis.lean",
+      "export": "AcExtensionPrinciple.offAxis",
+      "split_policy": {
+        "source_group": "acep.offAxis",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "510d80bbeba55d753ab429dfc31d62f17454698601f7be7629169cc83d99e25a",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "e59c0f296def750f1568ef586eaf14ddd80147f4e956da8d9b5d0d9140a7a852"
+    },
+    {
+      "id": "IntervalPrimitive_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:66-84,216"
+      },
+      "contract": {
+        "id": "paper.class.integral-form",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/IntervalPrimitive.lean",
+      "export": "AcExtensionPrinciple.IntervalPrimitive",
+      "split_policy": {
+        "source_group": "acep.IntervalPrimitive",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "a79c599d60e5e7cf92575b3cd0d153ce60cdb0776818075809be85b2d98f8775",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "08d4da2e23760083491ca10208f24fe304adf16d31c009cf33c506781042682d"
+    },
+    {
+      "id": "AxisVanishingVariation_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:216-233"
+      },
+      "contract": {
+        "id": "lukoh.def2.1(5)",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/AxisVanishingVariation.lean",
+      "export": "AcExtensionPrinciple.AxisVanishingVariation",
+      "split_policy": {
+        "source_group": "acep.AxisVanishingVariation",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "c3dd308859083640b37c17fc196f21ec4b0ce7a6e072b34a39aa0f62f9bb62cf",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "5e5c8bc9d6d011b38db3480c399b3554ae0b7460d0b59ab9789abd7d20f619d2"
+    },
+    {
+      "id": "LocalBVSolution_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:66-84,214-269"
+      },
+      "contract": {
+        "id": "lukoh.def2.1",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/LocalBVSolution.lean",
+      "export": "AcExtensionPrinciple.LocalBVSolution",
+      "split_policy": {
+        "source_group": "acep.LocalBVSolution",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "5a4d47a450e7f235acaf8ecd7e9537e996615a46cd0f7b5fed930f8583157d7c",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/AxisVanishingVariation.lean",
+          "sha256": "5e5c8bc9d6d011b38db3480c399b3554ae0b7460d0b59ab9789abd7d20f619d2"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/IntervalPrimitive.lean",
+          "sha256": "08d4da2e23760083491ca10208f24fe304adf16d31c009cf33c506781042682d"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassU.lean",
+          "sha256": "e46e62225addc5355b5a3818fb84bda4c760fc692d274e7855863ab5e8b4c044"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassV.lean",
+          "sha256": "6b46ae6f5d721a944485dcc2ac74f7cece2f9722a9537e513ed9e161a1e14698"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsRadiusCoeff.lean",
+          "sha256": "b88fa3e1730916303d47304b5d65e7617ac716a691ff65710396308929b45a28"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsTheta.lean",
+          "sha256": "68e3819ef05a9097bdacc20b6d96b8897cda58c02960f71c2a969edde0de16a8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsZeta.lean",
+          "sha256": "d7567562b3dbc2a44b7aed16d9697dfaa0e85cd556f7c93c5fd3982258d54554"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/InSeg.lean",
+          "sha256": "eb70c1253cfa6970dc486832a0a7c96a15daadba46e727f7aa51c8022956c4ff"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OffAxis.lean",
+          "sha256": "e59c0f296def750f1568ef586eaf14ddd80147f4e956da8d9b5d0d9140a7a852"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OutSeg.lean",
+          "sha256": "15c5f85b530d674e75b086d93f2cf2c16e0aa6d53e9ef299295d7780138e674b"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "faf61e1840fe53159d7159848882f8773c74eb1517ebbf6ca9486f9b4d5abae0"
+    },
+    {
+      "id": "RegularCenterLocalACBV_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:114,214-269"
+      },
+      "contract": {
+        "id": "paper.class.regular-center",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/RegularCenterLocalACBV.lean",
+      "export": "AcExtensionPrinciple.RegularCenterLocalACBV",
+      "split_policy": {
+        "source_group": "acep.RegularCenterLocalACBV",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "d26043a29bcba891110dfeee5ff674a49c1f8601371d1b5b9b11302c4360e701",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/AxisVanishingVariation.lean",
+          "sha256": "5e5c8bc9d6d011b38db3480c399b3554ae0b7460d0b59ab9789abd7d20f619d2"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/IntervalPrimitive.lean",
+          "sha256": "08d4da2e23760083491ca10208f24fe304adf16d31c009cf33c506781042682d"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/LocalBVSolution.lean",
+          "sha256": "faf61e1840fe53159d7159848882f8773c74eb1517ebbf6ca9486f9b4d5abae0"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassU.lean",
+          "sha256": "e46e62225addc5355b5a3818fb84bda4c760fc692d274e7855863ab5e8b4c044"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassV.lean",
+          "sha256": "6b46ae6f5d721a944485dcc2ac74f7cece2f9722a9537e513ed9e161a1e14698"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsRadiusCoeff.lean",
+          "sha256": "b88fa3e1730916303d47304b5d65e7617ac716a691ff65710396308929b45a28"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsTheta.lean",
+          "sha256": "68e3819ef05a9097bdacc20b6d96b8897cda58c02960f71c2a969edde0de16a8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsZeta.lean",
+          "sha256": "d7567562b3dbc2a44b7aed16d9697dfaa0e85cd556f7c93c5fd3982258d54554"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/Axis.lean",
+          "sha256": "c844d9db21c248a214b3a48474a65a5cf6e2b9127e3fb5459c476415dd0aabb1"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/InSeg.lean",
+          "sha256": "eb70c1253cfa6970dc486832a0a7c96a15daadba46e727f7aa51c8022956c4ff"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OffAxis.lean",
+          "sha256": "e59c0f296def750f1568ef586eaf14ddd80147f4e956da8d9b5d0d9140a7a852"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OutSeg.lean",
+          "sha256": "15c5f85b530d674e75b086d93f2cf2c16e0aa6d53e9ef299295d7780138e674b"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/PastTriangle.lean",
+          "sha256": "dfef32bf687d0cb9a9bc7b1d2f7aa16fa7d4da31b695cd357800c1da71538269"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "0d6cf39510d4dbdffddc76d4b2baf2b81259f5714015d73dfd05975b755dfd6e"
+    },
+    {
+      "id": "blueshiftSup_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:129-132"
+      },
+      "contract": {
+        "id": "paper.eq:uniform-blueshift",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/BlueshiftSup.lean",
+      "export": "AcExtensionPrinciple.blueshiftSup",
+      "split_policy": {
+        "source_group": "acep.blueshiftSup",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "2f89ba73c107d8f58f999e2bfa36310368de28ab58b03d8869473d0d56a6cf03",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsGamma.lean",
+          "sha256": "fc1064a9512c2522690d0cdfce132eba301456e01cebb23ea90650046795cdd1"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsVarkappa.lean",
+          "sha256": "cc06789b722aa693433f993494e0adf8dd00482611a6e4702950167f5b21f1e2"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/GammaOf.lean",
+          "sha256": "2edc4a1cde6cb3b923a2cefbd22f3919f314f8e090fbafe461bc642084796542"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/VarkappaOf.lean",
+          "sha256": "a40fa06801a2f0202f2aae4a97276914912db9fceb66129cf069a2f2bcd334f4"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "7a5854716522982e04ed812df2cdae2e722b6155e202ecb047c1cadc3709bdda"
+    },
+    {
+      "id": "StandingAssumptions_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:114-132"
+      },
+      "contract": {
+        "id": "paper.thm:main.hypotheses",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/StandingAssumptions.lean",
+      "export": "AcExtensionPrinciple.StandingAssumptions",
+      "split_policy": {
+        "source_group": "acep.StandingAssumptions",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "142aad2b3a3b721ccee61ae78383751edda135147063d03dbab2120137cbc9ce",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/AxisVanishingVariation.lean",
+          "sha256": "5e5c8bc9d6d011b38db3480c399b3554ae0b7460d0b59ab9789abd7d20f619d2"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/IntervalPrimitive.lean",
+          "sha256": "08d4da2e23760083491ca10208f24fe304adf16d31c009cf33c506781042682d"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/LocalBVSolution.lean",
+          "sha256": "faf61e1840fe53159d7159848882f8773c74eb1517ebbf6ca9486f9b4d5abae0"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/RegularCenterLocalACBV.lean",
+          "sha256": "0d6cf39510d4dbdffddc76d4b2baf2b81259f5714015d73dfd05975b755dfd6e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsGamma.lean",
+          "sha256": "fc1064a9512c2522690d0cdfce132eba301456e01cebb23ea90650046795cdd1"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassU.lean",
+          "sha256": "e46e62225addc5355b5a3818fb84bda4c760fc692d274e7855863ab5e8b4c044"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassV.lean",
+          "sha256": "6b46ae6f5d721a944485dcc2ac74f7cece2f9722a9537e513ed9e161a1e14698"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsRadiusCoeff.lean",
+          "sha256": "b88fa3e1730916303d47304b5d65e7617ac716a691ff65710396308929b45a28"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsTheta.lean",
+          "sha256": "68e3819ef05a9097bdacc20b6d96b8897cda58c02960f71c2a969edde0de16a8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsVarkappa.lean",
+          "sha256": "cc06789b722aa693433f993494e0adf8dd00482611a6e4702950167f5b21f1e2"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsZeta.lean",
+          "sha256": "d7567562b3dbc2a44b7aed16d9697dfaa0e85cd556f7c93c5fd3982258d54554"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/Axis.lean",
+          "sha256": "c844d9db21c248a214b3a48474a65a5cf6e2b9127e3fb5459c476415dd0aabb1"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/BlueshiftSup.lean",
+          "sha256": "7a5854716522982e04ed812df2cdae2e722b6155e202ecb047c1cadc3709bdda"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/GammaOf.lean",
+          "sha256": "2edc4a1cde6cb3b923a2cefbd22f3919f314f8e090fbafe461bc642084796542"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/InSeg.lean",
+          "sha256": "eb70c1253cfa6970dc486832a0a7c96a15daadba46e727f7aa51c8022956c4ff"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OffAxis.lean",
+          "sha256": "e59c0f296def750f1568ef586eaf14ddd80147f4e956da8d9b5d0d9140a7a852"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OutSeg.lean",
+          "sha256": "15c5f85b530d674e75b086d93f2cf2c16e0aa6d53e9ef299295d7780138e674b"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/PastTriangle.lean",
+          "sha256": "dfef32bf687d0cb9a9bc7b1d2f7aa16fa7d4da31b695cd357800c1da71538269"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/VarkappaOf.lean",
+          "sha256": "a40fa06801a2f0202f2aae4a97276914912db9fceb66129cf069a2f2bcd334f4"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "7997eeb23a774de52f220bce1c59050519bd6521e9f3fc1acbdc0021694c10e3"
+    },
+    {
+      "id": "axisDiagonal_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:214-269"
+      },
+      "contract": {
+        "id": "cpam.def.axis",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/AxisDiagonal.lean",
+      "export": "AcExtensionPrinciple.axisDiagonal",
+      "split_policy": {
+        "source_group": "acep.axisDiagonal",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "5326339ffe63e2c8c6d6ccf9284578daae1cd51331d176045450fe0ee8e2fc5b",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "87f4964a4932b668041dc0d52d04b1f622fcd4f343b575b63e6499154c077de6"
+    },
+    {
+      "id": "adjacentAxis_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:1400-1406"
+      },
+      "contract": {
+        "id": "cpam.thm3.1.axis",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/AdjacentAxis.lean",
+      "export": "AcExtensionPrinciple.adjacentAxis",
+      "split_policy": {
+        "source_group": "acep.adjacentAxis",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "728d65aba0ec51587514e0e1b75f8806c4a8b13ddb89b6cffd69740cb90d1c72",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "76989fcae93030eea6e8133df5da7b27d4faff89082941d2795b8d537fad2f14"
+    },
+    {
+      "id": "ChrAxisVanishingVariation_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:216"
+      },
+      "contract": {
+        "id": "cpam.def.item4",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/ChrAxisVanishingVariation.lean",
+      "export": "AcExtensionPrinciple.ChrAxisVanishingVariation",
+      "split_policy": {
+        "source_group": "acep.ChrAxisVanishingVariation",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "619cec64cf965eb8f3c59626bf3da8c5158dc09a4509e55bbe5a746da95dcbf1",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "408f062e916f8e01bfa60d350683bdd1128d648f92d6aeea19d85c995960b499"
+    },
+    {
+      "id": "ChrBVCore_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:66-84,214-269"
+      },
+      "contract": {
+        "id": "cpam.def.core",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/ChrBVCore.lean",
+      "export": "AcExtensionPrinciple.ChrBVCore",
+      "split_policy": {
+        "source_group": "acep.ChrBVCore",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "4e48fdaf1b1f69d5dc57dfdbcc67ac35368e8b2707bd4c76e8cb150f216a5a3c",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrAxisVanishingVariation.lean",
+          "sha256": "408f062e916f8e01bfa60d350683bdd1128d648f92d6aeea19d85c995960b499"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/IntervalPrimitive.lean",
+          "sha256": "08d4da2e23760083491ca10208f24fe304adf16d31c009cf33c506781042682d"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassU.lean",
+          "sha256": "e46e62225addc5355b5a3818fb84bda4c760fc692d274e7855863ab5e8b4c044"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassV.lean",
+          "sha256": "6b46ae6f5d721a944485dcc2ac74f7cece2f9722a9537e513ed9e161a1e14698"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsRadiusCoeff.lean",
+          "sha256": "b88fa3e1730916303d47304b5d65e7617ac716a691ff65710396308929b45a28"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsTheta.lean",
+          "sha256": "68e3819ef05a9097bdacc20b6d96b8897cda58c02960f71c2a969edde0de16a8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsZeta.lean",
+          "sha256": "d7567562b3dbc2a44b7aed16d9697dfaa0e85cd556f7c93c5fd3982258d54554"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/InSeg.lean",
+          "sha256": "eb70c1253cfa6970dc486832a0a7c96a15daadba46e727f7aa51c8022956c4ff"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OutSeg.lean",
+          "sha256": "15c5f85b530d674e75b086d93f2cf2c16e0aa6d53e9ef299295d7780138e674b"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "f01d6715466d64951e7bd3ffd0caa636d969d14ef84c0c88be502f6b868c54aa"
+    },
+    {
+      "id": "ChrBVBoundsOn_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:214-269"
+      },
+      "contract": {
+        "id": "cpam.def.bounds",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/ChrBVBoundsOn.lean",
+      "export": "AcExtensionPrinciple.ChrBVBoundsOn",
+      "split_policy": {
+        "source_group": "acep.ChrBVBoundsOn",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "223d070ee3478d2dff28b8dfad7207d7b74207334c3062c7f701fa40520755de",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsTheta.lean",
+          "sha256": "68e3819ef05a9097bdacc20b6d96b8897cda58c02960f71c2a969edde0de16a8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsZeta.lean",
+          "sha256": "d7567562b3dbc2a44b7aed16d9697dfaa0e85cd556f7c93c5fd3982258d54554"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "d4af7fe8a0758ce1e4e3255878ecf1881dbf6cc6ac102c7b16385b3b14bf58cc"
+    },
+    {
+      "id": "ChristodoulouBV_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:1358-1382,1400-1406"
+      },
+      "contract": {
+        "id": "cpam.def",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/ChristodoulouBV.lean",
+      "export": "AcExtensionPrinciple.ChristodoulouBV",
+      "split_policy": {
+        "source_group": "acep.ChristodoulouBV",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "e3702f63bfceb084d3a1bce64f9371320db9ec5f9ef730b1de2e12285960b04f",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrAxisVanishingVariation.lean",
+          "sha256": "408f062e916f8e01bfa60d350683bdd1128d648f92d6aeea19d85c995960b499"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrBVBoundsOn.lean",
+          "sha256": "d4af7fe8a0758ce1e4e3255878ecf1881dbf6cc6ac102c7b16385b3b14bf58cc"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrBVCore.lean",
+          "sha256": "f01d6715466d64951e7bd3ffd0caa636d969d14ef84c0c88be502f6b868c54aa"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/IntervalPrimitive.lean",
+          "sha256": "08d4da2e23760083491ca10208f24fe304adf16d31c009cf33c506781042682d"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassU.lean",
+          "sha256": "e46e62225addc5355b5a3818fb84bda4c760fc692d274e7855863ab5e8b4c044"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassV.lean",
+          "sha256": "6b46ae6f5d721a944485dcc2ac74f7cece2f9722a9537e513ed9e161a1e14698"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsRadiusCoeff.lean",
+          "sha256": "b88fa3e1730916303d47304b5d65e7617ac716a691ff65710396308929b45a28"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsTheta.lean",
+          "sha256": "68e3819ef05a9097bdacc20b6d96b8897cda58c02960f71c2a969edde0de16a8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsZeta.lean",
+          "sha256": "d7567562b3dbc2a44b7aed16d9697dfaa0e85cd556f7c93c5fd3982258d54554"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/InSeg.lean",
+          "sha256": "eb70c1253cfa6970dc486832a0a7c96a15daadba46e727f7aa51c8022956c4ff"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OutSeg.lean",
+          "sha256": "15c5f85b530d674e75b086d93f2cf2c16e0aa6d53e9ef299295d7780138e674b"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "d2b55662563e3847d51bc288f4279f7cbb18f4ca198a416af8755d08a384c87b"
+    },
+    {
+      "id": "LocalChristodoulouBV_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:112-146,214-269"
+      },
+      "contract": {
+        "id": "cpam.def.localized",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/LocalChristodoulouBV.lean",
+      "export": "AcExtensionPrinciple.LocalChristodoulouBV",
+      "split_policy": {
+        "source_group": "acep.LocalChristodoulouBV",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "46c077539f508fc28e2e25f1dffd81364ee7008b96090c70da46d2df0eec6802",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrAxisVanishingVariation.lean",
+          "sha256": "408f062e916f8e01bfa60d350683bdd1128d648f92d6aeea19d85c995960b499"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrBVBoundsOn.lean",
+          "sha256": "d4af7fe8a0758ce1e4e3255878ecf1881dbf6cc6ac102c7b16385b3b14bf58cc"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrBVCore.lean",
+          "sha256": "f01d6715466d64951e7bd3ffd0caa636d969d14ef84c0c88be502f6b868c54aa"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/IntervalPrimitive.lean",
+          "sha256": "08d4da2e23760083491ca10208f24fe304adf16d31c009cf33c506781042682d"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassU.lean",
+          "sha256": "e46e62225addc5355b5a3818fb84bda4c760fc692d274e7855863ab5e8b4c044"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassV.lean",
+          "sha256": "6b46ae6f5d721a944485dcc2ac74f7cece2f9722a9537e513ed9e161a1e14698"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsRadiusCoeff.lean",
+          "sha256": "b88fa3e1730916303d47304b5d65e7617ac716a691ff65710396308929b45a28"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsTheta.lean",
+          "sha256": "68e3819ef05a9097bdacc20b6d96b8897cda58c02960f71c2a969edde0de16a8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsZeta.lean",
+          "sha256": "d7567562b3dbc2a44b7aed16d9697dfaa0e85cd556f7c93c5fd3982258d54554"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/AxisDiagonal.lean",
+          "sha256": "87f4964a4932b668041dc0d52d04b1f622fcd4f343b575b63e6499154c077de6"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/InSeg.lean",
+          "sha256": "eb70c1253cfa6970dc486832a0a7c96a15daadba46e727f7aa51c8022956c4ff"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OutSeg.lean",
+          "sha256": "15c5f85b530d674e75b086d93f2cf2c16e0aa6d53e9ef299295d7780138e674b"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "cf8adf8399e70a04ff5994562e25be4a274dbfd494d3d12270ec770c8629dd32"
+    },
+    {
+      "id": "pastSet_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:1400-1406"
+      },
+      "contract": {
+        "id": "cpam.past-set",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/PastSet.lean",
+      "export": "AcExtensionPrinciple.pastSet",
+      "split_policy": {
+        "source_group": "acep.pastSet",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "7c85699ac6956d4489ec251a8d9e65a8644fa0d514497d32f984c8b6dd7de9aa",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "65817171d4f31adf9a0c0bdc7cff3320275a2f0fe9c69d703deb11dca7aa2daa"
+    },
+    {
+      "id": "domainOfDevelopment_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:1400-1406"
+      },
+      "contract": {
+        "id": "cpam.domain-of-development",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/DomainOfDevelopment.lean",
+      "export": "AcExtensionPrinciple.domainOfDevelopment",
+      "split_policy": {
+        "source_group": "acep.domainOfDevelopment",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "141c0f05acbb36c6b8d0242ab12ff736a5da2cdd607a107352872d3a5929293c",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/PastSet.lean",
+          "sha256": "65817171d4f31adf9a0c0bdc7cff3320275a2f0fe9c69d703deb11dca7aa2daa"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "57c23569fa8098169aa629e903d6862959965368c1c82e8e80fcf1e33e29d172"
+    },
+    {
+      "id": "smallBVDomain_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:1358-1382"
+      },
+      "contract": {
+        "id": "lukoh.thm5.12.domain",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SmallBVDomain.lean",
+      "export": "AcExtensionPrinciple.smallBVDomain",
+      "split_policy": {
+        "source_group": "acep.smallBVDomain",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "590a5da0b3afcd8f02d8ade0482f2998dc18ff161f2131cd368d5d46433644f5",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "cf828488c319f5b1d7f54eeade94bccd85d034b29e159a07bca87efb124d05d3"
+    },
+    {
+      "id": "SmallBVGeometry_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:1361-1366"
+      },
+      "contract": {
+        "id": "lukoh.thm5.12.(5-29)",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SmallBVGeometry.lean",
+      "export": "AcExtensionPrinciple.SmallBVGeometry",
+      "split_policy": {
+        "source_group": "acep.SmallBVGeometry",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "741ceadeb70ff5470d2712ad699cd2d70f596672492fa05716a1d80346bc694b",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVDomain.lean",
+          "sha256": "cf828488c319f5b1d7f54eeade94bccd85d034b29e159a07bca87efb124d05d3"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "c8e30996c673948aee98f118f3e274a0a874c4015b0f32039283c520751b760b"
+    },
+    {
+      "id": "smallBVOutgoingTV_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:1358-1382"
+      },
+      "contract": {
+        "id": "lukoh.thm5.12.(5-30)",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SmallBVOutgoingTV.lean",
+      "export": "AcExtensionPrinciple.smallBVOutgoingTV",
+      "split_policy": {
+        "source_group": "acep.smallBVOutgoingTV",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "ea54159c7c8b71d41f8fd4a7ffdd3e88f40d4b2f53df89f5fda4080db7894cd6",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "d7bfdf78694f002232c1a7127eb4ecccb9fbeae24450f4b6169d0587d7c321e1"
+    },
+    {
+      "id": "smallBVIncomingTV_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:1368-1376"
+      },
+      "contract": {
+        "id": "lukoh.thm5.12.(5-31)",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SmallBVIncomingTV.lean",
+      "export": "AcExtensionPrinciple.smallBVIncomingTV",
+      "split_policy": {
+        "source_group": "acep.smallBVIncomingTV",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "0567d86f93d12cbe45cd22e13dd6afe32bd238aba30cb482de67e27805a1efe6",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "1f9d54d9271a2d59f1cadc8d4d7ca0f6f2ae6be4206203e55d3c3bcfa215453c"
+    },
+    {
+      "id": "SmallBVExistence_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:1358-1382"
+      },
+      "contract": {
+        "id": "lukoh.thm5.12+cpam.thm6.2",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/SmallBVExistence.lean",
+      "export": "AcExtensionPrinciple.SmallBVExistence",
+      "split_policy": {
+        "source_group": "acep.SmallBVExistence",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "bd0d9910e57c2f0bca6916dda0c874db0a86139e52c401e5abfab4c4ccab7fab",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrAxisVanishingVariation.lean",
+          "sha256": "408f062e916f8e01bfa60d350683bdd1128d648f92d6aeea19d85c995960b499"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrBVBoundsOn.lean",
+          "sha256": "d4af7fe8a0758ce1e4e3255878ecf1881dbf6cc6ac102c7b16385b3b14bf58cc"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrBVCore.lean",
+          "sha256": "f01d6715466d64951e7bd3ffd0caa636d969d14ef84c0c88be502f6b868c54aa"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChristodoulouBV.lean",
+          "sha256": "d2b55662563e3847d51bc288f4279f7cbb18f4ca198a416af8755d08a384c87b"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/IntervalPrimitive.lean",
+          "sha256": "08d4da2e23760083491ca10208f24fe304adf16d31c009cf33c506781042682d"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassU.lean",
+          "sha256": "e46e62225addc5355b5a3818fb84bda4c760fc692d274e7855863ab5e8b4c044"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassV.lean",
+          "sha256": "6b46ae6f5d721a944485dcc2ac74f7cece2f9722a9537e513ed9e161a1e14698"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsRadiusCoeff.lean",
+          "sha256": "b88fa3e1730916303d47304b5d65e7617ac716a691ff65710396308929b45a28"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsTheta.lean",
+          "sha256": "68e3819ef05a9097bdacc20b6d96b8897cda58c02960f71c2a969edde0de16a8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsZeta.lean",
+          "sha256": "d7567562b3dbc2a44b7aed16d9697dfaa0e85cd556f7c93c5fd3982258d54554"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVGeometry.lean",
+          "sha256": "c8e30996c673948aee98f118f3e274a0a874c4015b0f32039283c520751b760b"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/InSeg.lean",
+          "sha256": "eb70c1253cfa6970dc486832a0a7c96a15daadba46e727f7aa51c8022956c4ff"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OutSeg.lean",
+          "sha256": "15c5f85b530d674e75b086d93f2cf2c16e0aa6d53e9ef299295d7780138e674b"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVDomain.lean",
+          "sha256": "cf828488c319f5b1d7f54eeade94bccd85d034b29e159a07bca87efb124d05d3"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVIncomingTV.lean",
+          "sha256": "1f9d54d9271a2d59f1cadc8d4d7ca0f6f2ae6be4206203e55d3c3bcfa215453c"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVOutgoingTV.lean",
+          "sha256": "d7bfdf78694f002232c1a7127eb4ecccb9fbeae24450f4b6169d0587d7c321e1"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "a74a353d328b762357178b0047bb46e00ea7fa9f4f0eba3cd2ec3536efd2aa9a"
+    },
+    {
+      "id": "BVUniqueness_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:1400-1406"
+      },
+      "contract": {
+        "id": "cpam.thm3.1",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/BVUniqueness.lean",
+      "export": "AcExtensionPrinciple.BVUniqueness",
+      "split_policy": {
+        "source_group": "acep.BVUniqueness",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "21ec2e4619ee9cec9c02f418543271ad23574e4da336beacbb1b8bd4c534ea39",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrAxisVanishingVariation.lean",
+          "sha256": "408f062e916f8e01bfa60d350683bdd1128d648f92d6aeea19d85c995960b499"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrBVBoundsOn.lean",
+          "sha256": "d4af7fe8a0758ce1e4e3255878ecf1881dbf6cc6ac102c7b16385b3b14bf58cc"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrBVCore.lean",
+          "sha256": "f01d6715466d64951e7bd3ffd0caa636d969d14ef84c0c88be502f6b868c54aa"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChristodoulouBV.lean",
+          "sha256": "d2b55662563e3847d51bc288f4279f7cbb18f4ca198a416af8755d08a384c87b"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/IntervalPrimitive.lean",
+          "sha256": "08d4da2e23760083491ca10208f24fe304adf16d31c009cf33c506781042682d"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassU.lean",
+          "sha256": "e46e62225addc5355b5a3818fb84bda4c760fc692d274e7855863ab5e8b4c044"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassV.lean",
+          "sha256": "6b46ae6f5d721a944485dcc2ac74f7cece2f9722a9537e513ed9e161a1e14698"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsRadiusCoeff.lean",
+          "sha256": "b88fa3e1730916303d47304b5d65e7617ac716a691ff65710396308929b45a28"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsTheta.lean",
+          "sha256": "68e3819ef05a9097bdacc20b6d96b8897cda58c02960f71c2a969edde0de16a8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsZeta.lean",
+          "sha256": "d7567562b3dbc2a44b7aed16d9697dfaa0e85cd556f7c93c5fd3982258d54554"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/AdjacentAxis.lean",
+          "sha256": "76989fcae93030eea6e8133df5da7b27d4faff89082941d2795b8d537fad2f14"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/DomainOfDevelopment.lean",
+          "sha256": "57c23569fa8098169aa629e903d6862959965368c1c82e8e80fcf1e33e29d172"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/InSeg.lean",
+          "sha256": "eb70c1253cfa6970dc486832a0a7c96a15daadba46e727f7aa51c8022956c4ff"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OutSeg.lean",
+          "sha256": "15c5f85b530d674e75b086d93f2cf2c16e0aa6d53e9ef299295d7780138e674b"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/PastSet.lean",
+          "sha256": "65817171d4f31adf9a0c0bdc7cff3320275a2f0fe9c69d703deb11dca7aa2daa"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "bf56106a6a52ce351b34bcd54ade8f7fae49ca160310f2ed8b9b72afb4ddb0db"
+    },
+    {
+      "id": "continuationDomain_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:133-138,1407-1424"
+      },
+      "contract": {
+        "id": "paper.eq:continuation-domain",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/ContinuationDomain.lean",
+      "export": "AcExtensionPrinciple.continuationDomain",
+      "split_policy": {
+        "source_group": "acep.continuationDomain",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "93a42253959c3887b7a6fa6c5a2e0a3af1cf63732f9cacc1ffce26b9842fe93e",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/Axis.lean",
+          "sha256": "c844d9db21c248a214b3a48474a65a5cf6e2b9127e3fb5459c476415dd0aabb1"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/PastTriangle.lean",
+          "sha256": "dfef32bf687d0cb9a9bc7b1d2f7aa16fa7d4da31b695cd357800c1da71538269"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "cad44251c02fd725527db82fff1d9a16b054ead134039c42e579fbd07aab79ea"
+    },
+    {
+      "id": "FieldsAgreeAt_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:133-138,1400-1424"
+      },
+      "contract": {
+        "id": "paper.thm:main.agreement",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/FieldsAgreeAt.lean",
+      "export": "AcExtensionPrinciple.FieldsAgreeAt",
+      "split_policy": {
+        "source_group": "acep.FieldsAgreeAt",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "38ce5a66faff4971dea86826f0dbdd684a7a3363c53cbfc809f5082aec9d3d64",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "8b1ca8674a54bc2b5e6f520aa124da870cdae020b2914b6624c6ec5c72a55fd9"
+    },
+    {
+      "id": "MainTheoremStatement_v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:112-146"
+      },
+      "contract": {
+        "id": "paper.thm:main",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/MainTheoremStatement.lean",
+      "export": "AcExtensionPrinciple.MainTheoremStatement",
+      "split_policy": {
+        "source_group": "acep.MainTheoremStatement",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "230e1b5188036bf88ab5b281e3edcd24827dc2a7a173eb2a21fa94667fdb05b3",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/AxisVanishingVariation.lean",
+          "sha256": "5e5c8bc9d6d011b38db3480c399b3554ae0b7460d0b59ab9789abd7d20f619d2"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/BVUniqueness.lean",
+          "sha256": "bf56106a6a52ce351b34bcd54ade8f7fae49ca160310f2ed8b9b72afb4ddb0db"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrAxisVanishingVariation.lean",
+          "sha256": "408f062e916f8e01bfa60d350683bdd1128d648f92d6aeea19d85c995960b499"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrBVBoundsOn.lean",
+          "sha256": "d4af7fe8a0758ce1e4e3255878ecf1881dbf6cc6ac102c7b16385b3b14bf58cc"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrBVCore.lean",
+          "sha256": "f01d6715466d64951e7bd3ffd0caa636d969d14ef84c0c88be502f6b868c54aa"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChristodoulouBV.lean",
+          "sha256": "d2b55662563e3847d51bc288f4279f7cbb18f4ca198a416af8755d08a384c87b"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/FieldsAgreeAt.lean",
+          "sha256": "8b1ca8674a54bc2b5e6f520aa124da870cdae020b2914b6624c6ec5c72a55fd9"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/IntervalPrimitive.lean",
+          "sha256": "08d4da2e23760083491ca10208f24fe304adf16d31c009cf33c506781042682d"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/LocalBVSolution.lean",
+          "sha256": "faf61e1840fe53159d7159848882f8773c74eb1517ebbf6ca9486f9b4d5abae0"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/LocalChristodoulouBV.lean",
+          "sha256": "cf8adf8399e70a04ff5994562e25be4a274dbfd494d3d12270ec770c8629dd32"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/RegularCenterLocalACBV.lean",
+          "sha256": "0d6cf39510d4dbdffddc76d4b2baf2b81259f5714015d73dfd05975b755dfd6e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsGamma.lean",
+          "sha256": "fc1064a9512c2522690d0cdfce132eba301456e01cebb23ea90650046795cdd1"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassU.lean",
+          "sha256": "e46e62225addc5355b5a3818fb84bda4c760fc692d274e7855863ab5e8b4c044"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassV.lean",
+          "sha256": "6b46ae6f5d721a944485dcc2ac74f7cece2f9722a9537e513ed9e161a1e14698"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsRadiusCoeff.lean",
+          "sha256": "b88fa3e1730916303d47304b5d65e7617ac716a691ff65710396308929b45a28"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsTheta.lean",
+          "sha256": "68e3819ef05a9097bdacc20b6d96b8897cda58c02960f71c2a969edde0de16a8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsVarkappa.lean",
+          "sha256": "cc06789b722aa693433f993494e0adf8dd00482611a6e4702950167f5b21f1e2"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsZeta.lean",
+          "sha256": "d7567562b3dbc2a44b7aed16d9697dfaa0e85cd556f7c93c5fd3982258d54554"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVExistence.lean",
+          "sha256": "a74a353d328b762357178b0047bb46e00ea7fa9f4f0eba3cd2ec3536efd2aa9a"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVGeometry.lean",
+          "sha256": "c8e30996c673948aee98f118f3e274a0a874c4015b0f32039283c520751b760b"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/StandingAssumptions.lean",
+          "sha256": "7997eeb23a774de52f220bce1c59050519bd6521e9f3fc1acbdc0021694c10e3"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/AdjacentAxis.lean",
+          "sha256": "76989fcae93030eea6e8133df5da7b27d4faff89082941d2795b8d537fad2f14"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/Axis.lean",
+          "sha256": "c844d9db21c248a214b3a48474a65a5cf6e2b9127e3fb5459c476415dd0aabb1"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/AxisDiagonal.lean",
+          "sha256": "87f4964a4932b668041dc0d52d04b1f622fcd4f343b575b63e6499154c077de6"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/BlueshiftSup.lean",
+          "sha256": "7a5854716522982e04ed812df2cdae2e722b6155e202ecb047c1cadc3709bdda"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ContinuationDomain.lean",
+          "sha256": "cad44251c02fd725527db82fff1d9a16b054ead134039c42e579fbd07aab79ea"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/DomainOfDevelopment.lean",
+          "sha256": "57c23569fa8098169aa629e903d6862959965368c1c82e8e80fcf1e33e29d172"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/GammaOf.lean",
+          "sha256": "2edc4a1cde6cb3b923a2cefbd22f3919f314f8e090fbafe461bc642084796542"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/InSeg.lean",
+          "sha256": "eb70c1253cfa6970dc486832a0a7c96a15daadba46e727f7aa51c8022956c4ff"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OffAxis.lean",
+          "sha256": "e59c0f296def750f1568ef586eaf14ddd80147f4e956da8d9b5d0d9140a7a852"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OutSeg.lean",
+          "sha256": "15c5f85b530d674e75b086d93f2cf2c16e0aa6d53e9ef299295d7780138e674b"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/PastSet.lean",
+          "sha256": "65817171d4f31adf9a0c0bdc7cff3320275a2f0fe9c69d703deb11dca7aa2daa"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/PastTriangle.lean",
+          "sha256": "dfef32bf687d0cb9a9bc7b1d2f7aa16fa7d4da31b695cd357800c1da71538269"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVDomain.lean",
+          "sha256": "cf828488c319f5b1d7f54eeade94bccd85d034b29e159a07bca87efb124d05d3"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVIncomingTV.lean",
+          "sha256": "1f9d54d9271a2d59f1cadc8d4d7ca0f6f2ae6be4206203e55d3c3bcfa215453c"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVOutgoingTV.lean",
+          "sha256": "d7bfdf78694f002232c1a7127eb4ecccb9fbeae24450f4b6169d0587d7c321e1"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/VarkappaOf.lean",
+          "sha256": "a40fa06801a2f0202f2aae4a97276914912db9fceb66129cf069a2f2bcd334f4"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "c7a0113cb50fec44fa80250674b1aff5864adfb9e0c4ac8d881720c76f7f8621"
+    },
+    {
+      "id": "mainTheorem_v1",
+      "kind": "theorem",
+      "author_approval": {
+        "approved_by": "Christoph Kehle",
+        "approved_at": "2026-10-12",
+        "approval_ref": "planning/author-questions.md#A1 (Christoph Kehle, 2026-10-12)",
+        "approval_version": "1.4"
+      },
+      "source": {
+        "revision": "203e554",
+        "range": "equations.tex:112-146,1384-1439"
+      },
+      "contract": {
+        "id": "paper.thm:main",
+        "version": "1"
+      },
+      "path": "AcExtensionPrinciple/Frozen/MainTheorem.lean",
+      "export": "AcExtensionPrinciple.mainTheorem",
+      "implementation": {
+        "module": "AcExtensionPrinciple.Main.Theorem1Proof",
+        "export": "AcExtensionPrinciple.mainTheoremProof"
+      },
+      "split_policy": {
+        "source_group": "acep.mainTheorem",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "planning/freeze-plan.md D2"
+      },
+      "abi_sha256": "b80c13b2092c44137d0b0b6b841e9f4b1f8a1ce7307fcf4f9a9597540878d9dc",
+      "definition_closure": [
+        {
+          "path": "AcExtensionPrinciple/Frozen/AxisVanishingVariation.lean",
+          "sha256": "5e5c8bc9d6d011b38db3480c399b3554ae0b7460d0b59ab9789abd7d20f619d2"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/BVUniqueness.lean",
+          "sha256": "bf56106a6a52ce351b34bcd54ade8f7fae49ca160310f2ed8b9b72afb4ddb0db"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrAxisVanishingVariation.lean",
+          "sha256": "408f062e916f8e01bfa60d350683bdd1128d648f92d6aeea19d85c995960b499"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrBVBoundsOn.lean",
+          "sha256": "d4af7fe8a0758ce1e4e3255878ecf1881dbf6cc6ac102c7b16385b3b14bf58cc"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChrBVCore.lean",
+          "sha256": "f01d6715466d64951e7bd3ffd0caa636d969d14ef84c0c88be502f6b868c54aa"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ChristodoulouBV.lean",
+          "sha256": "d2b55662563e3847d51bc288f4279f7cbb18f4ca198a416af8755d08a384c87b"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/FieldsAgreeAt.lean",
+          "sha256": "8b1ca8674a54bc2b5e6f520aa124da870cdae020b2914b6624c6ec5c72a55fd9"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/IntervalPrimitive.lean",
+          "sha256": "08d4da2e23760083491ca10208f24fe304adf16d31c009cf33c506781042682d"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/LocalBVSolution.lean",
+          "sha256": "faf61e1840fe53159d7159848882f8773c74eb1517ebbf6ca9486f9b4d5abae0"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/LocalChristodoulouBV.lean",
+          "sha256": "cf8adf8399e70a04ff5994562e25be4a274dbfd494d3d12270ec770c8629dd32"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MainTheoremStatement.lean",
+          "sha256": "c7a0113cb50fec44fa80250674b1aff5864adfb9e0c4ac8d881720c76f7f8621"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/RegularCenterLocalACBV.lean",
+          "sha256": "0d6cf39510d4dbdffddc76d4b2baf2b81259f5714015d73dfd05975b755dfd6e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFields.lean",
+          "sha256": "300a334e30842118e479b96d9f1e82de899618d4ad1f623665a9025017613c11"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsGamma.lean",
+          "sha256": "fc1064a9512c2522690d0cdfce132eba301456e01cebb23ea90650046795cdd1"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassU.lean",
+          "sha256": "e46e62225addc5355b5a3818fb84bda4c760fc692d274e7855863ab5e8b4c044"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMassV.lean",
+          "sha256": "6b46ae6f5d721a944485dcc2ac74f7cece2f9722a9537e513ed9e161a1e14698"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsMu.lean",
+          "sha256": "8b2688140ba2b6893f36348c4ea5c9a01205bda9e737df5bdec3ce72e9d035f8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsRadiusCoeff.lean",
+          "sha256": "b88fa3e1730916303d47304b5d65e7617ac716a691ff65710396308929b45a28"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsTheta.lean",
+          "sha256": "68e3819ef05a9097bdacc20b6d96b8897cda58c02960f71c2a969edde0de16a8"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsVarkappa.lean",
+          "sha256": "cc06789b722aa693433f993494e0adf8dd00482611a6e4702950167f5b21f1e2"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SSFieldsZeta.lean",
+          "sha256": "d7567562b3dbc2a44b7aed16d9697dfaa0e85cd556f7c93c5fd3982258d54554"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVExistence.lean",
+          "sha256": "a74a353d328b762357178b0047bb46e00ea7fa9f4f0eba3cd2ec3536efd2aa9a"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVGeometry.lean",
+          "sha256": "c8e30996c673948aee98f118f3e274a0a874c4015b0f32039283c520751b760b"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/StandingAssumptions.lean",
+          "sha256": "7997eeb23a774de52f220bce1c59050519bd6521e9f3fc1acbdc0021694c10e3"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/AdjacentAxis.lean",
+          "sha256": "76989fcae93030eea6e8133df5da7b27d4faff89082941d2795b8d537fad2f14"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/Axis.lean",
+          "sha256": "c844d9db21c248a214b3a48474a65a5cf6e2b9127e3fb5459c476415dd0aabb1"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/AxisDiagonal.lean",
+          "sha256": "87f4964a4932b668041dc0d52d04b1f622fcd4f343b575b63e6499154c077de6"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/BlueshiftSup.lean",
+          "sha256": "7a5854716522982e04ed812df2cdae2e722b6155e202ecb047c1cadc3709bdda"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/ContinuationDomain.lean",
+          "sha256": "cad44251c02fd725527db82fff1d9a16b054ead134039c42e579fbd07aab79ea"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/DomainOfDevelopment.lean",
+          "sha256": "57c23569fa8098169aa629e903d6862959965368c1c82e8e80fcf1e33e29d172"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/GammaOf.lean",
+          "sha256": "2edc4a1cde6cb3b923a2cefbd22f3919f314f8e090fbafe461bc642084796542"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/InSeg.lean",
+          "sha256": "eb70c1253cfa6970dc486832a0a7c96a15daadba46e727f7aa51c8022956c4ff"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/MassRatio.lean",
+          "sha256": "3e84d8246171ee02ea24c799ffe638555806139ce1ed96f01e6b34191348495e"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OffAxis.lean",
+          "sha256": "e59c0f296def750f1568ef586eaf14ddd80147f4e956da8d9b5d0d9140a7a852"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/OutSeg.lean",
+          "sha256": "15c5f85b530d674e75b086d93f2cf2c16e0aa6d53e9ef299295d7780138e674b"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/PastSet.lean",
+          "sha256": "65817171d4f31adf9a0c0bdc7cff3320275a2f0fe9c69d703deb11dca7aa2daa"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/PastTriangle.lean",
+          "sha256": "dfef32bf687d0cb9a9bc7b1d2f7aa16fa7d4da31b695cd357800c1da71538269"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVDomain.lean",
+          "sha256": "cf828488c319f5b1d7f54eeade94bccd85d034b29e159a07bca87efb124d05d3"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVIncomingTV.lean",
+          "sha256": "1f9d54d9271a2d59f1cadc8d4d7ca0f6f2ae6be4206203e55d3c3bcfa215453c"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/SmallBVOutgoingTV.lean",
+          "sha256": "d7bfdf78694f002232c1a7127eb4ecccb9fbeae24450f4b6169d0587d7c321e1"
+        },
+        {
+          "path": "AcExtensionPrinciple/Frozen/VarkappaOf.lean",
+          "sha256": "a40fa06801a2f0202f2aae4a97276914912db9fceb66129cf069a2f2bcd334f4"
+        }
+      ],
+      "state": "SEALED",
+      "prefix_sha256": "9401967418e2ac2e30b1be5719746e0671e7db3b42094c21c05a15e8fcd97788",
+      "suffix_sha256": "6355bdc58892775ba4fcb59cae877a458a1bde2d76064808a15f948b194a97e0",
+      "draft_allowlist": {
+        "frozen_paths": [],
+        "audit_paths": []
+      }
+    }
+  ]
+}

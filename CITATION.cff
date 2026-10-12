@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this formalization, please cite it and the paper it formalizes."
+title: "Lean formalization of Theorem 1 of 'A blueshift criterion for continuation of the spherically symmetric Einstein-scalar field system'"
+type: software
+authors:
+  - family-names: Anderson
+    given-names: John
+  - family-names: Cicortas
+    given-names: Serban
+  - family-names: Kehle
+    given-names: Christoph
+  - family-names: Shlapentokh-Rothman
+    given-names: Yakov
+  - family-names: Van de Moortel
+    given-names: Maxime
+license: Apache-2.0
+repository-code: "https://github.com/christoph-ke/ac-extension-principle-lean"
+keywords:
+  - Lean 4
+  - formalization
+  - Einstein-scalar field
+  - spherical symmetry
+  - bounded variation
+references:
+  - type: article
+    title: "A blueshift criterion for continuation of the spherically symmetric Einstein-scalar field system"
+    status: in-preparation
+    authors:
+      - family-names: Anderson
+        given-names: John
+      - family-names: Cicortas
+        given-names: Serban
+      - family-names: Kehle
+        given-names: Christoph
+      - family-names: Shlapentokh-Rothman
+        given-names: Yakov
+      - family-names: Van de Moortel
+        given-names: Maxime

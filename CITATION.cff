@@ -9,6 +9,10 @@ authors:
     given-names: Serban
   - family-names: Kehle
     given-names: Christoph
+  - family-names: Lee
+    given-names: Warren
+  - family-names: Luk
+    given-names: Jonathan
   - family-names: Shlapentokh-Rothman
     given-names: Yakov
   - family-names: Van de Moortel
@@ -32,6 +36,10 @@ references:
         given-names: Serban
       - family-names: Kehle
         given-names: Christoph
+      - family-names: Lee
+        given-names: Warren
+      - family-names: Luk
+        given-names: Jonathan
       - family-names: Shlapentokh-Rothman
         given-names: Yakov
       - family-names: Van de Moortel

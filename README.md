@@ -2,11 +2,11 @@
 
 This repository contains a Lean 4 formalization of the main theorem (Theorem 1) of
 
-> John Anderson, Serban Cicortas, Christoph Kehle, Warren Lee, Jonathan Luk, Yakov Shlapentokh-Rothman,
+> John Anderson, Serban Cicortas, Christoph Kehle, Warren Li, Jonathan Luk, Yakov Shlapentokh-Rothman,
 > Maxime Van de Moortel,
 > *A blueshift criterion for continuation of the spherically symmetric Einstein–scalar field system*, in preparation.
 
-This formalization is part of a joint project by John Anderson, Serban Cicortas, Christoph Kehle, Warren Lee,
+This formalization is part of a joint project by John Anderson, Serban Cicortas, Christoph Kehle, Warren Li,
 Jonathan Luk, Yakov Shlapentokh-Rothman and Maxime Van de Moortel, carried out with AI assistance (OpenAI ChatGPT/Codex and Anthropic
 Claude), using source-first statement review, frozen declarations, independent audits, and Lean kernel checking. The
 paper was prompted by Serban Cicortas and Maxime Van de Moortel.
@@ -282,7 +282,7 @@ shifted by 6 in `e1a0fd5`. The LaTeX source is not public, so these line numbers
 
 ## 11. License, citation and third-party material
 
-Copyright 2026 John Anderson, Serban Cicortas, Christoph Kehle, Warren Lee, Jonathan Luk, Yakov Shlapentokh-Rothman,
+Copyright 2026 John Anderson, Serban Cicortas, Christoph Kehle, Warren Li, Jonathan Luk, Yakov Shlapentokh-Rothman,
 Maxime Van de Moortel.
 
 - The Lean code and the documentation in this repository are licensed under the Apache License 2.0
